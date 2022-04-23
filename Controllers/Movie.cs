@@ -10,10 +10,38 @@ namespace Mod8_1302200104.Controllers
     {
         private string[] arrTopmovie = new[]
         {
-             "The Shawshank Redemption",
-             "The Godfather",
-             "The Dark Knight"
-        };
+             "title": "The Shawshank Redemption",
+             "director": "Frank Darabont",
+             "star":
+            [
+                "Tim Robbins",
+                "Morgan Freeman",
+                "Bob Gunton",
+            ],
+            "description" :"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency"
+        },
+        {
+            "title": "The Godfather",
+             "director": "Francis Ford Coppola",
+             "star":
+            [
+                "Marlon Brando",
+                "Al Pacino",
+                "James Caan",
+            ],
+            "description" :"The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son"
+         },
+         {
+             "title": " The Dark Knight",
+             "director": "Christopher Nolan",
+             "star":
+            [
+                "Christian Bale",
+                "Heath Ledger",
+                "Aaron Eckhart",
+            ],
+             "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+         };
 
         // GET: api/<ValuesController>
         [HttpGet]
